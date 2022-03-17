@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chart-con{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#myChart{
+  margin: 2% 2%;
+  box-shadow: 0 0 25px 0 #ddd;
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+.values-con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(252, 149, 192);
+  padding: 10% 5%;
+  border-radius: 4%;
+}
+
+#x_val, #y_val{
+  margin: 15% 2%;
+  padding: 5%;
+  border: 1px #777 solid;
+  border-radius: 8%;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+}
